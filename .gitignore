@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+git init
+echo "# StringFilter" >> README.md
+git add README.md
+git commit -m "Initial commit with README"
+git branch -M main
+git remote add origin <your-repo-url>
+git push -u origin main
+
+git add block_diagram.png
+git commit -m "Add block diagram of the algorithm"
+git push
+
+git add script.сs
+git commit -m "Add string filter script"
+git push
